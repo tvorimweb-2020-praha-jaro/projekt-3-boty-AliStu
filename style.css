@@ -21,3 +21,137 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1,5;
+}
+
+.zbozi {
+    width: 670px;
+    height: 440px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    margin: 80px auto;
+}
+
+.vizual {
+    padding: 30px;
+    position: relative;
+    flex: 0 0 50%;
+    background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
+    color: white;
+}
+
+.logo {
+    padding: 30 0 30 30;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.bota {
+    position: absolute;
+    left: -80px;
+    bottom: 0;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cenovka {
+    position: absolute;
+    text-align: right;
+    right: 30px;
+    bottom: 30px;
+}
+
+.detaily {
+    padding: 30px;
+    position: relative;
+    flex: 0 0 50%;
+    color: black;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.produkt {
+    color: #959595;
+}
+
+.popis {
+    margin-top: 30px;
+    font-weight: 400;
+    line-height: 1,6;
+    border-bottom: 1.5px solid #06d7c1;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.velikosti {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.velikosti li {
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.akce {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.tlacitko {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15f42;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.velikosti li:hover,
+.velikosti li:focus,
+.velikosti li:active {
+    border: 1px solid #f15f42;
+    color: #f15f42;
+    font-weight: 500;
+}
